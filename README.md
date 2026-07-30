@@ -165,16 +165,75 @@ After training and evaluation, the project generates:
 
 ### Evaluation
 
-- Classification Report
-- Confusion Matrix
-- Evaluation Summary
+- #### Confusion Matrix
 
+<p align="center">
+<img src="outputs/evaluation/confusion_matrix.png" width="650">
+</p>
+
+- #### Classification Report
+
+```text
+              precision    recall  f1-score   support
+
+angry           0.3974     0.3173     0.3529        958
+disgust         0.5000     0.0090     0.0177        111
+fear            0.3930     0.2529     0.3078       1024
+happy           0.6180     0.7469     0.6764       1774
+neutral         0.4263     0.5231     0.4698       1233
+sad             0.3853     0.4218     0.4028       1247
+surprise        0.6890     0.6053     0.6445        831
+
+------------------------------------------------------------
+
+Accuracy                               0.4964       7178
+
+Macro Average    0.4870     0.4109     0.4102       7178
+
+Weighted Average 0.4895     0.4964     0.4837       7178
+```
+- #### Evaluation Summary
+
+```text
+Test Accuracy: 0.4964
+Test Loss: 1.3238
+
+Precision:    0.4870
+Recall:       0.4109
+F1-Score:     0.4102
+```
 ### Training Plots
 
-- Training Accuracy
-- Training Loss
-- Class Distribution
-- Pixel Intensity Histogram
+#### Training Accuracy
+
+<p align="center">
+<img src="outputs/plots/training_accuracy_20_epochs.png" width="700">
+</p>
+
+---
+
+#### Training Loss
+
+<p align="center">
+<img src="outputs/plots/training_loss_20_epochs.png" width="700">
+</p>
+
+---
+
+
+#### Dataset Distribution
+
+<p align="center">
+<img src="outputs/plots/class_distribution.png" width="650">
+</p>
+
+---
+
+#### Pixel Intensity Distribution
+
+<p align="center">
+<img src="outputs/plots/pixel_intensity_histogram.png" width="650">
+</p>
 
 ---
 
@@ -249,7 +308,7 @@ Generated evaluation artifacts include:
 
 ---
 
-# Important Notes
+# Important Notes ⚠️
 
 ## This is a demonstration project
 
