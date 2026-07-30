@@ -149,7 +149,7 @@ For inference (image prediction and webcam), RGB images are converted to match t
 |-----------|------:|
 | Backbone | MobileNetV2 |
 | Optimizer | Adam |
-| Learning Rate | 0.0001 |
+| Learning Rate | 1e-6 |
 | Epochs | 20 |
 | Batch Size | 32 |
 | Loss Function | Sparse Categorical Crossentropy |
