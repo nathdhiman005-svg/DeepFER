@@ -1,0 +1,5 @@
+DeepFER Model Evaluation
+=============================
+
+Test Loss: 1.3238
+Test Accuracy: 0.4964

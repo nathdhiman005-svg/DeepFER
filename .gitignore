@@ -25,10 +25,7 @@ dataset/
 *.h5
 *.weights.h5
 
-# ==========================
-# Generated Outputs
-# ==========================
-outputs/
+
 
 # ==========================
 # IDE Settings
